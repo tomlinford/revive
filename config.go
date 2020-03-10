@@ -79,6 +79,7 @@ var allRules = append([]lint.Rule{
 	&rule.DuplicatedImportsRule{},
 	&rule.ImportShadowingRule{},
 	&rule.BareReturnRule{},
+	&rule.UncheckedTypeAssertionRule{},
 	&rule.UnusedReceiverRule{},
 	&rule.UnhandledErrorRule{},
 	&rule.CognitiveComplexityRule{},

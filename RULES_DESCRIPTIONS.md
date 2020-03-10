@@ -53,6 +53,7 @@ List of all available rules.
   - [time-naming](#time-naming)
   - [var-naming](#var-naming)
   - [var-declaration](#var-declaration)
+  - [unchecked-type-assertion](#unchecked-type-assertion)
   - [unexported-return](#unexported-return)
   - [unhandled-error](#unhandled-error)
   - [unnecessary-stmt](#unnecessary-stmt)
@@ -455,6 +456,12 @@ Example:
 ## var-declaration
 
 _Description_: This rule proposes simplifications of variable declarations.
+
+_Configuration_: N/A
+
+## unchecked-type-assertion
+
+_Description_: This rule errors on unchecked type assertions that could panic.
 
 _Configuration_: N/A
 
